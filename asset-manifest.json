@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04e2019f.css",
-    "main.js": "/static/js/main.df95e81c.js",
+    "main.js": "/static/js/main.005f856f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/ssense.JPG": "/static/media/ssense.0d580003d75a419abc1d.JPG",
     "static/media/Madhukesh_Kumar_Thakur.pdf": "/static/media/Madhukesh_Kumar_Thakur.592b74de60f85596d635.pdf",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.04e2019f.css.map": "/static/css/main.04e2019f.css.map",
-    "main.df95e81c.js.map": "/static/js/main.df95e81c.js.map",
+    "main.005f856f.js.map": "/static/js/main.005f856f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04e2019f.css",
-    "static/js/main.df95e81c.js"
+    "static/js/main.005f856f.js"
   ]
 }
