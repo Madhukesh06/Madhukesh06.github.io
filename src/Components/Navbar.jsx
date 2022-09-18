@@ -10,7 +10,6 @@ import {
     Stack,
     useColorMode,
     useToast,
-    Text,
 } from "@chakra-ui/react";
 import {
     HamburgerIcon,
@@ -66,28 +65,32 @@ export default function Simple() {
                         onClick={isOpen ? onClose : onOpen}
                     />
                     <HStack
-                        spacing={10}
+                        spacing={2}
                         alignItems={"center"}
-                        fontSize="1.5rem"
+                        fontSize="1rem"
                         fontFamily="sans-serif"
                         fontWeight="bold"
                     >
                         <Box
                             cursor="pointer"
-                            fontSize="1.5rem"
+                            fontSize="1rem"
                             fontFamily="sans-serif"
                             fontWeight="bold"
                         >
-                            MADHU<span style={{ color: "#B83280" }}>KESH</span>{" "}
+                            {/* <Image width={10} src="https://www.pngfind.com/pngs/m/29-294824_letter-m-png-graphics-tipografia-con-letra-m.png" /> */}
+                            <NavLink path="#">
+                                {" "}
+                                MADHU<span style={{ color: "#B83280" }}>KESH</span>{" "}
+                            </NavLink>{" "}
                         </Box>
                         <HStack
                             as={"nav"}
-                            spacing={5}
+                            spacing={1}
                             display={{ base: "none", md: "flex" }}
                         >
                             {Links.map((link) => (
-                                <Box _hover={{ color: "#B83280" }} p={5}>
-                                    <NavLink p={5} key={link}>
+                                <Box _hover={{ color: "#B83280" }} p={2}>
+                                    <NavLink key={link}>
                                         {" "}
                                         <Link href={link.id}>{link.name} </Link>
                                     </NavLink>
@@ -102,11 +105,11 @@ export default function Simple() {
                                     <Button
                                         rightIcon={<DownloadIcon />}
                                         fontWeight={"bold"}
-                                        ml="10rem"
-                                        fontSize="1.5rem"
+                                        // ml="40rem"
+                                        fontSize="1rem"
                                         _hover={{
                                             color: "#B83280",
-                                            fontcolor: "white"
+                                            fontcolor: "white",
                                         }}
                                         onClick={() =>
                                             toast({
@@ -124,8 +127,8 @@ export default function Simple() {
                         </HStack>
                     </HStack>
 
-                    <Flex alignItems={"center"} h="100vh" justifyContent="center" >
-                        <Button onClick={toggleColorMode} size={"5xl"} mr="2rem" padding={2} margin={5} >
+                    <Flex alignItems={"center"} justifyContent="center">
+                        <Button onClick={toggleColorMode} size={"3xl"} mr="1rem">
                             {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
                         </Button>
                     </Flex>
