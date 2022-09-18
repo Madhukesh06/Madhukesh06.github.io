@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d5b52c38.css",
-    "main.js": "/static/js/main.fd0754d3.js",
+    "main.js": "/static/js/main.f7e3aa8c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/ssense.JPG": "/static/media/ssense.0d580003d75a419abc1d.JPG",
     "static/media/Madhukesh_Kumar_Thakur.pdf": "/static/media/Madhukesh_Kumar_Thakur.592b74de60f85596d635.pdf",
@@ -13,11 +13,11 @@
     "static/media/calender.JPG": "/static/media/calender.f201f1badbc3acff5a44.JPG",
     "index.html": "/index.html",
     "main.d5b52c38.css.map": "/static/css/main.d5b52c38.css.map",
-    "main.fd0754d3.js.map": "/static/js/main.fd0754d3.js.map",
+    "main.f7e3aa8c.js.map": "/static/js/main.f7e3aa8c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5b52c38.css",
-    "static/js/main.fd0754d3.js"
+    "static/js/main.f7e3aa8c.js"
   ]
 }
