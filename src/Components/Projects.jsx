@@ -13,28 +13,30 @@ import {
 } from "@chakra-ui/react";
 
 import ssense from "../Images/ssense.JPG";
-import cricinfo from "../Images/cricinfo.JPG";
 import outlook from "../Images/outlook.JPG";
+import everhour from "../Images/everhourProject.JPG"
+
 const Project = () => {
   const ProjectData = [
+    {
+      title: "Everhour Clone",
+      link: "https://clone-everhour.netlify.app",
+      url: "https://github.com/Madhukesh06/everhour.com-clone",
+      description:
+        "A web application for Time-Tracking , Everhour is a team-oriented time tracking software product, One of the properties of Everhour is Integration and synchronization with many kinds of business tools such as: Asana, Basecamp, GitHub, Trello etc.",
+      language: " React js | React-redux | React-redux-thunk | Chakra UI | NodeJS | MongoDB | Express js | Mongoose",
+      image: everhour,
+    },
     {
       title: "SSENSE Clone",
       link: "https://tangerine-bublanina-ddee4c.netlify.app",
       url: "https://github.com/RohitMBelure/Project-SSENSE",
       description:
-        "A web application for buying at for men’s, women’s, and kids street fashion products Mostly into cloothing . We have used HTML | CSS | Javascript for making the website",
+        "A web application to buy men’s, women’s, and kids street fashion products Mostly into cloothing .SSENSE is a multi-brand retailer based in Montreal, Canada specialising in the sale of designer fashion and high end streetwear.",
       language: " HTML | CSS | JavaScript | BootStrap",
       image: ssense,
     },
-    {
-      title: "ESPN Cricinfo Clone",
-      link: "https://illustrious-yeot-4a1c49.netlify.app/",
-      url: "https://github.com/Madhukesh06?tab=repositories",
-      description:
-        "A web application for cricket lovers , It has all th information related to cricket teams, leagues, players etc, .. we have ssed HTML | CSS | JavaScript for making the website",
-      language: " HTML | CSS | JavaScript",
-      image: cricinfo,
-    },
+
     {
       title: "Outlook India News Web clone",
       link: "https://keen-end-1084.vercel.app/",
@@ -54,7 +56,7 @@ const Project = () => {
           My Projects
         </Heading>
       </Center>
-      <SimpleGrid columns={[1, 1, 2, 3]} spacing={4} mt={8} mb="2rem">
+      <SimpleGrid columns={[1, 2, 3]} spacing={4} mt={8} mb="2rem">
         {ProjectData.map((t) => {
           return (
             <Stack
@@ -70,7 +72,7 @@ const Project = () => {
               mx={8}
               p={2}
             >
-              <Image src={t.image} />
+              <Image src={t.image} mt="0" />
               <Text fontSize={"1.3rem"}>{t.title}</Text>
               <Text>{t.description}</Text>
               <Text>

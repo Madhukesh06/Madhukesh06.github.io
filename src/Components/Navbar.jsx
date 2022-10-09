@@ -120,7 +120,7 @@ export default function Simple() {
                                             })
                                         }
                                     >
-                                        <NavLink> RESUME</NavLink>
+                                        RESUME
                                     </Button>
                                 </Link>
                             </Box>

@@ -18,10 +18,10 @@ export default function Skills() {
                     mb={"3rem"}
                     textDecoration="underline"
                 >
-                    My Technical Skills
+                    Technical-Skills
                 </Heading>{" "}
             </Center>
-            <SimpleGrid minChildWidth="110px" spacing="60px" mt={"1rem"}>
+            <SimpleGrid minChildWidth="110px" spacing="60px" mt={"0.5rem"} ml="1rem">
                 <Box height="80px">
                     <Image
                         style={{

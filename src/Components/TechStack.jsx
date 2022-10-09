@@ -6,7 +6,7 @@ export default function TechStack() {
         <Box maxW={'7xl'} fontFamily="sans-serif" margin={"auto"} id="skills" mb="10rem"
         >
             <Center> <Heading fontSize="3rem" color={"#B83280"} mb={"2rem"} textDecoration="underline">Tech-Stacks</Heading> </Center>
-            <SimpleGrid minChildWidth='110px' spacing='60px' mt={"1rem"} >
+            <SimpleGrid minChildWidth='110px' spacing='60px' mt={"1rem"} ml="1rem" >
 
                 <Box height='80px'>
                     <Image style={{ padding: "0.4rem", boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset" }} objectFit='cover' boxSize='130px' src="https://miro.medium.com/max/1024/1*33CwBYkmnMfpA9Djup22Jw.png" />

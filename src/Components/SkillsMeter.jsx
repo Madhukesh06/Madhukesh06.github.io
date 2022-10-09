@@ -11,7 +11,7 @@ export default function SkillsMeter() {
                 color={"#B83280"}
                 cursor="pointer"
             >
-                Skills on Data
+                Statistics
             </Heading>
 
             <Box
