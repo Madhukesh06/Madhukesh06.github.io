@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d5b52c38.css",
-    "main.js": "/static/js/main.32b61ca0.js",
+    "main.js": "/static/js/main.4878d951.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Madhukesh_Kumar_Thakur.pdf": "/static/media/Madhukesh_Kumar_Thakur.b6d5a192f815f962c655.pdf",
+    "static/media/Madhukesh_Kumar_Thakur_Resume.pdf": "/static/media/Madhukesh_Kumar_Thakur_Resume.890ac2cc6952d1e7ad59.pdf",
     "static/media/everhourProject.JPG": "/static/media/everhourProject.7e4e9096ac93aa3f923a.JPG",
     "static/media/ssense.JPG": "/static/media/ssense.0d580003d75a419abc1d.JPG",
     "static/media/image.png": "/static/media/image.b9f3727037ac74f66307.png",
@@ -12,11 +12,11 @@
     "static/media/dsa.png": "/static/media/dsa.3ea4416026bd73503277.png",
     "index.html": "/index.html",
     "main.d5b52c38.css.map": "/static/css/main.d5b52c38.css.map",
-    "main.32b61ca0.js.map": "/static/js/main.32b61ca0.js.map",
+    "main.4878d951.js.map": "/static/js/main.4878d951.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5b52c38.css",
-    "static/js/main.32b61ca0.js"
+    "static/js/main.4878d951.js"
   ]
 }
