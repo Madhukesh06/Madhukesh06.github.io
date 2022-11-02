@@ -18,7 +18,7 @@ import {
     MoonIcon,
     DownloadIcon,
 } from "@chakra-ui/icons";
-import resume from "../Madhukesh_Kumar_Thakur.pdf";
+import resume from "../Madhukesh_Kumar_Thakur_Resume.pdf";
 
 const Links = [
     { name: "HOME", id: "#" },

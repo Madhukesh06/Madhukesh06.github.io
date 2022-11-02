@@ -15,7 +15,7 @@ import {
     HStack,
 } from "@chakra-ui/react";
 
-import resume from "../Madhukesh_Kumar_Thakur.pdf";
+import resume from "../Madhukesh_Kumar_Thakur_Resume.pdf";
 
 import Time from "./Time";
 import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
