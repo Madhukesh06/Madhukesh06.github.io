@@ -1,4 +1,4 @@
-import { Box, Heading, Image, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 
 export default function SkillsMeter() {
@@ -21,53 +21,53 @@ export default function SkillsMeter() {
                     marginTop: "-1rem",
                 }}
             >
-                <Text align="center">
-                    <Link href="https://github.com/Madhukesh06" target="_blank">
-                        <Image
-                            src="https://github-profile-trophy.vercel.app/?username=madhukesh06"
-                            alt="madhukesh06"
-                        />
-                    </Link>
-                </Text>
-            </Box>
-            <Text mt="-.2rem">
-                <Image
-                    align="center"
-                    src="https://github-readme-stats.vercel.app/api/top-langs?username=madhukesh06&show_icons=true&locale=en&layout=compact"
-                    alt="madhukesh06"
-                />
-            </Text>
+                <Box w={{ base: "100%", md: "80%" }}>
 
-            <Box
+                    <Image
+                        p={2}
+                        w={{ base: "100%", md: "80%" }}
+                        src="https://github-profile-trophy.vercel.app/?username=madhukesh06"
+                        alt="madhukesh06"
+                    />
+                </Box>
+
+            </Box>
+            <Image
+                p={2}
+                w={{ base: "100%", md: "30%" }}
+                align="center"
+                src="https://github-readme-stats.vercel.app/api/top-langs?username=madhukesh06&show_icons=true&locale=en&layout=compact"
+                alt="madhukesh06"
+            />
+
+            <Flex
+                alignItems="center"
+                p={2}
                 style={{
-                    display: "flex",
                     gap: "1rem",
                     justifyContent: "center",
-                    alignItems: "center",
+
                     alignContent: "center",
                 }}
-            >
-                <div style={{ marginBottom: "1.5rem" }}>
-                    <p>
-                        &nbsp;
-                        <img
-                            align="center"
-                            src="https://github-readme-stats.vercel.app/api?username=madhukesh06&show_icons=true&locale=en"
-                            alt="madhukesh06"
-                        />
-                    </p>
-                </div>
+                flexDirection={{ base: "column", md: "row" }}
 
-                <div>
-                    <p>
-                        <img
-                            align="center"
-                            src="https://github-readme-streak-stats.herokuapp.com/?user=madhukesh06&"
-                            alt="madhukesh06"
-                        />
-                    </p>
-                </div>
-            </Box>
+            >
+                <Box >
+                    <Image
+                        align="center"
+                        src="https://github-readme-stats.vercel.app/api?username=madhukesh06&show_icons=true&locale=en"
+                        alt="madhukesh06"
+                    />
+                </Box>
+
+                <Box>
+                    <Image
+                        align="center"
+                        src="https://github-readme-streak-stats.herokuapp.com/?user=madhukesh06&"
+                        alt="madhukesh06"
+                    />
+                </Box>
+            </Flex>
         </Box>
     );
 }
