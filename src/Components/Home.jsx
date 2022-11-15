@@ -22,7 +22,7 @@ import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 export default function Home() {
     const toast = useToast();
     return (
-        <Container maxW={"7xl"} fontFamily="sans-serif" borderRadius="lg" p={8}>
+        <Container maxW="7xl" fontFamily="sans-serif" borderRadius="lg" p={8}>
             <Stack
                 align={"center"}
                 spacing={{ base: 8, md: 10 }}
@@ -59,7 +59,6 @@ export default function Home() {
                                     size={"md"}
                                     fontWeight={"bold"}
                                     px={10}
-                                    // fontSize="1.3rem"
                                     color="white"
                                     colorScheme={"teal"}
                                     bg={"#97266D"}
