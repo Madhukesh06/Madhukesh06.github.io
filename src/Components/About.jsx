@@ -16,7 +16,7 @@ export default function About() {
     return (
         <Container maxW={"7xl"} id="about">
             <Stack
-                mt={-10}
+                mt={{ base: "-10rem", md: -10 }}
                 align={"center"}
                 spacing={{ base: 8, md: 10 }}
                 py={{ base: 20, md: 28 }}
@@ -25,7 +25,7 @@ export default function About() {
                 <Stack flex={1} spacing={{ base: 5, md: 10 }}>
                     <Heading lineHeight={1.1} fontSize="3rem">
                         <br />
-                        <Text as={"span"} textDecoration="underline" color={"#B83280"}>
+                        <Text as={"span"} textDecoration="underline" color={"#B83280"} >
                             About Me
                         </Text>
                     </Heading>
@@ -54,15 +54,15 @@ export default function About() {
                         left={0}
                         color={useColorModeValue("gray.300", "gray.700")}
                     />
-                    <Box position={"relative"} height={"300px"} width={"full"}>
+                    <Box position={"relative"} height={"300px"} width={"full"} textAlign="center">
                         <Image
                             className="zoom"
                             alt={"Hero Image"}
                             fit={"cover"}
+
                             cursor="pointer"
                             align={"center"}
-                            mt={5}
-                            ml={40}
+                            mt={{ base: 7, md: "" }}
                             src={image}
                         />
                     </Box>
