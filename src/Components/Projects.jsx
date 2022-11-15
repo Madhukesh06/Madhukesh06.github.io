@@ -48,15 +48,15 @@ const Project = () => {
       image: outlook,
     },
   ];
+
   return (
-    <Box mt={20} id="projects" p={"0.5rem"}>
+    <Box mt="3rem" id="projects" p={"0.5rem"} w="100%">
       <Center>
-        {" "}
         <Heading fontSize="3rem" color={"#B83280"} textDecoration="underline">
           My Projects
         </Heading>
       </Center>
-      <SimpleGrid columns={[1, 2, 3]} spacing={4} mt={8} mb="2rem">
+      <SimpleGrid columns={[1, 2, 3]} mt={8} mb="2rem" spacing={2}>
         {ProjectData.map((t) => {
           return (
             <Stack
@@ -69,17 +69,16 @@ const Project = () => {
               border="1px solid"
               borderColor={"gray.300"}
               rounded={"xl"}
-              mx={8}
               p={2}
             >
               <Image src={t.image} mt="0" />
               <Text fontSize={"1.3rem"}>{t.title}</Text>
               <Text>{t.description}</Text>
-              <Text>
-                <b> Tech-Stack :</b> {t.language}{" "}
+              <Text >
+                <b> Tech-Stack :</b> {t.language}
               </Text>
 
-              <Flex justifyContent={"space-between"} gap={[4]}>
+              <Flex gap={5} >
                 <Button
                   target="_blank"
                   as="a"
