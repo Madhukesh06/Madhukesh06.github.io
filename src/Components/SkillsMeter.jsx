@@ -5,7 +5,7 @@ export default function SkillsMeter() {
     return (
         <Box align="center">
             <Heading
-                fontSize="3rem"
+                fontSize={{ base: "2rem", md: "3rem" }}
                 mb={"3rem"}
                 textDecoration="underline"
                 color={"#B83280"}
@@ -55,7 +55,7 @@ export default function SkillsMeter() {
                 <Box >
                     <Image
                         align="center"
-                        src="https://github-readme-stats.vercel.app/api?username=madhukesh06&show_icons=true&locale=en"
+                        src="https://github-readme-stats.vercel.app/api?username=madhukesh06&show_icons=true&locale=en&count_private=true"
                         alt="madhukesh06"
                     />
                 </Box>
@@ -63,7 +63,7 @@ export default function SkillsMeter() {
                 <Box>
                     <Image
                         align="center"
-                        src="https://github-readme-streak-stats.herokuapp.com/?user=madhukesh06&"
+                        src="https://github-readme-streak-stats.herokuapp.com/?user=madhukesh06&count_private=true"
                         alt="madhukesh06"
                     />
                 </Box>

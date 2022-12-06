@@ -1,4 +1,4 @@
-import { Box, Center, Heading, Image, SimpleGrid } from "@chakra-ui/react";
+import { Box, Heading, Image, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 import boot from "../Images/boot.png";
 export default function Skills() {
@@ -8,23 +8,23 @@ export default function Skills() {
             fontFamily="sans-serif"
             margin={"auto"}
             id="skills"
-            mt="5rem"
+            mt={{ base: "4rem", md: "5rem" }}
         >
-            <Center>
-                <Heading
-                    fontSize="3rem"
-                    color={"#B83280"}
-                    mb={"3rem"}
-                    textDecoration="underline"
-                >
-                    Technical-Skills
-                </Heading>{" "}
-            </Center>
+
+            <Heading
+                textAlign="center"
+                fontSize={{ base: "2rem", md: "3rem" }}
+                color={"#B83280"}
+                mb={"2rem"}
+                textDecoration="underline"
+            >
+                Technical-Skills
+            </Heading>{" "}
+
             <SimpleGrid minChildWidth="110px" spacing="60px" mt={"0.5rem"} ml="1rem">
                 <Box height="80px">
                     <Image
                         style={{
-                            // padding: "0.4rem",
                             boxShadow:
                                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
                         }}
@@ -201,6 +201,7 @@ export default function Skills() {
                         src="https://reactrouter.com/twitterimage.jpg"
                     />
                 </Box>
+
             </SimpleGrid>
         </Box>
     );

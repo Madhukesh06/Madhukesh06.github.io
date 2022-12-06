@@ -9,12 +9,11 @@ import {
   Text,
   Flex,
   Button,
-  Center,
 } from "@chakra-ui/react";
 
 import ssense from "../Images/ssense.JPG";
 import outlook from "../Images/outlook.JPG";
-import everhour from "../Images/everhourProject.JPG"
+import everhour from "../Images/everhourProject.JPG";
 
 const Project = () => {
   const ProjectData = [
@@ -24,7 +23,8 @@ const Project = () => {
       url: "https://github.com/Madhukesh06/everhour.com-clone",
       description:
         "A web application for Time-Tracking , Everhour is a team-oriented time tracking software product, One of the properties of Everhour is Integration and synchronization with many kinds of business tools such as: Asana, Basecamp, GitHub, Trello etc.",
-      language: " React js | React-redux | React-redux-thunk | Chakra UI | NodeJS | MongoDB | Express js | Mongoose",
+      language:
+        " React js | React-redux | React-redux-thunk | Chakra UI | NodeJS | MongoDB | Express js | Mongoose",
       image: everhour,
     },
     {
@@ -50,13 +50,24 @@ const Project = () => {
   ];
 
   return (
-    <Box mt="3rem" id="projects" p={"0.5rem"} w="100%">
-      <Center>
-        <Heading fontSize="3rem" color={"#B83280"} textDecoration="underline">
-          My Projects
-        </Heading>
-      </Center>
-      <SimpleGrid columns={[1, 2, 3]} mt={8} mb="2rem" spacing={2}>
+    <Box
+      id="projects"
+      p={"0.5rem"}
+      w={{ base: "95%", md: "85%" }}
+      m="auto"
+      mt={{ base: "3rem", md: "1rem" }}
+    >
+      <Heading
+        textAlign="center"
+        fontSize={{ base: "2rem", md: "3rem" }}
+        color={"#B83280"}
+        textDecoration="underline"
+        mb={5}
+      >
+        My Projects
+      </Heading>
+
+      <SimpleGrid columns={[1, 2, 3]} mb="2rem" spacing={2}>
         {ProjectData.map((t) => {
           return (
             <Stack
@@ -71,14 +82,21 @@ const Project = () => {
               rounded={"xl"}
               p={2}
             >
-              <Image src={t.image} mt="0" />
-              <Text fontSize={"1.3rem"}>{t.title}</Text>
+              <Image src={t.image} />
+              <Text
+                fontSize={"1.3rem"}
+                textAlign="center"
+                fontWeight="600"
+                color="#B83280"
+              >
+                {t.title}
+              </Text>
               <Text>{t.description}</Text>
-              <Text >
+              <Text>
                 <b> Tech-Stack :</b> {t.language}
               </Text>
 
-              <Flex gap={5} >
+              <Flex gap={5}>
                 <Button
                   target="_blank"
                   as="a"

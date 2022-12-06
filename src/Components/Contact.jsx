@@ -64,7 +64,7 @@ export default function Contact() {
                 mt="1.5rem"
                 textDecoration="underline"
                 color={"#B83280"}
-                fontSize="3rem"
+                fontSize={{ base: "2rem", md: "3rem" }}
             >
                 Contact Me
             </ Heading>
@@ -74,7 +74,7 @@ export default function Contact() {
                 bg={useColorModeValue("gray.700", "gray.700")}
                 color="white"
                 borderRadius="lg"
-                p={2}
+                p={{ base: 2, md: 3 }}
                 mt={2}
                 align="center"
                 flexDirection={{ base: "column", md: "row" }}
