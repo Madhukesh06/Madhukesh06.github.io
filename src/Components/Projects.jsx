@@ -14,6 +14,8 @@ import {
 import ssense from "../Images/ssense.JPG";
 import outlook from "../Images/outlook.JPG";
 import everhour from "../Images/everhourProject.JPG";
+import shopEasy from "../Images/shopEasy.PNG";
+import liscius from "../Images/liscius.PNG";
 
 const Project = () => {
   const ProjectData = [
@@ -37,6 +39,26 @@ const Project = () => {
       image: ssense,
     },
 
+    {
+      title: "ShopEasy - AJIO (Reference)",
+      link: "https://economic-nest-8248-three.vercel.app/",
+      url: "https://github.com/Hars28/economic-nest-8248",
+      description:
+        " This is the clone of the official website of AJIO, where you can order a wide variety of products directly to your home and enjoy the service",
+      language:
+        " JavaScript | Next JS | Chakra UI| Vercel | React JS",
+      image: shopEasy,
+    },
+    {
+      title: "Licious Clone",
+      link: "https://graceful-raindrop-c43c29.netlify.app/",
+      url: "https://github.com/Madhukesh06/Licious-Fresh-Chicken-Ordering-Website/tree/master/handy-bubble-5100",
+      description:
+        " Licious is India's largest D2C Unicorn,[1] headquartered in Bengaluru, Karnataka, India",
+      language:
+        " JavaScript | Chakra UI| Netlify | React JS",
+      image: liscius,
+    },
     {
       title: "Outlook India News Web clone",
       link: "https://keen-end-1084.vercel.app/",
