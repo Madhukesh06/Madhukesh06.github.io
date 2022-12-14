@@ -1,22 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.d5b52c38.css",
-    "main.js": "/static/js/main.4b50f6f4.js",
+    "main.js": "/static/js/main.40733003.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Madhukesh_Kumar_Thakur_Resume.pdf": "/static/media/Madhukesh_Kumar_Thakur_Resume.890ac2cc6952d1e7ad59.pdf",
+    "static/media/liscius.PNG": "/static/media/liscius.9394c10868e4bcee15e3.PNG",
+    "static/media/shopEasy.PNG": "/static/media/shopEasy.54eb2552bf43e0046d1a.PNG",
+    "static/media/Madhukesh_Kumar_Thakur_Resume.pdf": "/static/media/Madhukesh_Kumar_Thakur_Resume.ad2e3aac5c1d8af5d52c.pdf",
     "static/media/everhourProject.JPG": "/static/media/everhourProject.7e4e9096ac93aa3f923a.JPG",
     "static/media/ssense.JPG": "/static/media/ssense.0d580003d75a419abc1d.JPG",
     "static/media/image.png": "/static/media/image.b9f3727037ac74f66307.png",
     "static/media/outlook.JPG": "/static/media/outlook.1ccc7a0cd436c2f7af83.JPG",
     "static/media/boot.png": "/static/media/boot.425671d37463f928d839.png",
     "static/media/dsa.png": "/static/media/dsa.3ea4416026bd73503277.png",
+    "static/media/vite.png": "/static/media/vite.9b6c02e0ea159582b216.png",
+    "static/media/netlify.png": "/static/media/netlify.156b9a663fd0c16d4e19.png",
+    "static/media/babel.png": "/static/media/babel.d935c3a6342fd673560b.png",
     "index.html": "/index.html",
     "main.d5b52c38.css.map": "/static/css/main.d5b52c38.css.map",
-    "main.4b50f6f4.js.map": "/static/js/main.4b50f6f4.js.map",
+    "main.40733003.js.map": "/static/js/main.40733003.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5b52c38.css",
-    "static/js/main.4b50f6f4.js"
+    "static/js/main.40733003.js"
   ]
 }
